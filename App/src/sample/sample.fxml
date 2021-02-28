@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="275.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="button_msg" disable="true" layoutX="128.0" layoutY="217.0" mnemonicParsing="false" onAction="#send" text="Wyślij" />
+      <TextField fx:id="sendText" layoutX="86.0" layoutY="180.0" prefHeight="25.0" prefWidth="131.0" />
+      <TextArea fx:id="textArea" editable="false" layoutX="80.0" layoutY="26.0" prefHeight="92.0" prefWidth="177.0" />
+      <Button fx:id="button_connect" layoutX="8.0" layoutY="13.0" mnemonicParsing="false" onAction="#connect" text="Połącz" />
+      <TextField fx:id="nick" layoutX="86.0" layoutY="140.0" prefHeight="25.0" prefWidth="131.0" />
+      <Label layoutX="86.0" layoutY="123.0" prefHeight="17.0" prefWidth="37.0" text="Nick:" />
+      <Label layoutX="86.0" layoutY="165.0" text="Nowa Cena:" />
+      <Label layoutX="229.0" layoutY="140.0" prefHeight="25.0" prefWidth="88.0" text="Pozostały czas:" />
+      <TextArea fx:id="czas" editable="false" layoutX="317.0" layoutY="134.0" prefHeight="38.0" prefWidth="15.0" />
+   </children>
+</Pane>
